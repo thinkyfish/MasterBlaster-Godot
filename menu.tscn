@@ -29,7 +29,7 @@ custom_constants/margin_right = 120
 custom_constants/margin_top = 80
 custom_constants/margin_left = 120
 custom_constants/margin_bottom = 80
-_sections_unfolded = [ "Anchor", "Margin" ]
+_sections_unfolded = [ "Anchor" ]
 
 [node name="VSplitContainer" type="VSplitContainer" parent="MainMenu"]
 anchor_left = 0.0
