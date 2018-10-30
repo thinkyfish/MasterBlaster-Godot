@@ -23,14 +23,15 @@ collision/safe_margin = 0.08
 motion/sync_to_physics = false
 script = ExtResource( 2 )
 _sections_unfolded = [ "Script" ]
-speed = 200
+speed = 0
 rotation_speed = 1.5
 
 [node name="Ship" type="Line2D" parent="KinematicShip"]
+rotation = 3.14159
 scale = Vector2( 1, 1 )
 points = PoolVector2Array( -46.2672, -0.100487, 28.0753, 20.8022, 13.3377, 0.130875, 28.2678, -20.7077, -44.6814, -0.100487 )
 width = 2.03
-default_color = Color( 0.4, 0.5, 1, 1 )
+default_color = Color( 1, 1, 1, 1 )
 texture_mode = 17
 sharp_limit = 2.0
 round_precision = 6
